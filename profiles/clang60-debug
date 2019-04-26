@@ -5,3 +5,7 @@ compiler=clang
 compiler.libcxx=libstdc++11
 compiler.version=6.0
 os=Linux
+
+[env]
+CC=clang
+CXX=clang++
