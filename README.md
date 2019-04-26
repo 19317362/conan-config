@@ -27,4 +27,4 @@ E.g If you want to set libcxx on profile linux-gcc54-amd64:
 If you want to contribute, please, create a fork or branch and submit a new PR.
 
 ## LICENSE
-[MIT](LICENSE.txt)
+[MIT](LICENSE)
