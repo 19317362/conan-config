@@ -7,5 +7,5 @@ compiler.version=7.0
 os=Linux
 
 [env]
-CC=/usr/bin/clang7.0
-CXX=/usr/bin/clang++7.0
+CC=/usr/bin/clang-7
+CXX=/usr/bin/clang++-7
