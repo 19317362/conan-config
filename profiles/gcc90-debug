@@ -2,10 +2,10 @@ include(default)
 
 [settings]
 arch=x86_64
-build_type=Release
-compiler=clang
+build_type=Debug
+compiler=gcc
 compiler.libcxx=libstdc++11
-compiler.version=7.0
+compiler.version=9.0
 os=Linux
 
 [options]
@@ -13,5 +13,5 @@ enable_documentation=True
 enable_tests=True
 
 [env]
-CC=/usr/bin/clang-7
-CXX=/usr/bin/clang++-7
+CC=/usr/bin/gcc-9
+CXX=/usr/bin/g++-9
