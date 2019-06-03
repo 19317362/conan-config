@@ -13,7 +13,3 @@ os.api_level=21
 enable_documentation=True
 enable_tests=True
 
-[env]
-CC=/usr/bin/clang-6.0
-CXX=/usr/bin/clang++-6.0
-
