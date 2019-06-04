@@ -1,0 +1,17 @@
+include(default)
+
+[settings]
+arch=x86_64
+build_type=Debug
+compiler=clang
+compiler.libcxx=libstdc++11
+compiler.version=8
+os=Linux
+
+[options]
+enable_documentation=True
+enable_tests=True
+
+[env]
+CC=/usr/bin/clang-8
+CXX=/usr/bin/clang++-8
