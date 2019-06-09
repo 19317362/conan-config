@@ -15,4 +15,3 @@ enable_tests=True
 [env]
 CC=/usr/bin/clang-6.0
 CXX=/usr/bin/clang++-6.0
-CFLAGS=$CFLAGS" -lm"
