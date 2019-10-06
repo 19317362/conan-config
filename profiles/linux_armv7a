@@ -1,21 +1,23 @@
 
-# include(default)
+include(default)
 
 [settings]
 compiler=gcc
-compiler.version=8.3
+compiler.version=6.3.1
 compiler.libcxx=libstdc++11
-compiler.libc=musl
 os=Linux
-arch=armv7hf
+arch=armv7
 build_type=Release
-os.platform=PicoCOMA5
 
 [env]
-CFLAGS = -g -O3 -mcpu=cortex-a5 -mfpu=neon-vfpv4 -mfloat-abi=hard -fstack-protector-strong -Wformat -Werror=format-security -flto -funroll-loops
-CPPFLAGS=-Wdate-time
-CXXFLAGS = -g -O3 -mcpu=cortex-a5 -mfpu=neon-vfpv4 -mfloat-abi=hard -fstack-protector-strong -Wformat -Werror=format-security -flto -funroll-loops
-LDFALGS = -Wl,-Bsymbolic-functions -Wl,-z,relro
+# CFLAGS = -g -O3 -mcpu=cortex-a5 -mfpu=neon-vfpv4 -mfloat-abi=hard -fstack-protector-strong -Wformat -Werror=format-security -flto -funroll-loops
+# CPPFLAGS=-Wdate-time
+# CXXFLAGS = -g -O3 -mcpu=cortex-a5 -mfpu=neon-vfpv4 -mfloat-abi=hard -fstack-protector-strong -Wformat -Werror=format-security -flto -funroll-loops
+# LDFALGS = -Wl,-Bsymbolic-functions -Wl,-z,relro
+
+CFLAGS = 
+CPPFLAGS=
+CXXFLAGS = 
+LDFALGS = 
 
 [build_requires]
-gcc-arm-linux-musleabihf/0.1@demo/testing
