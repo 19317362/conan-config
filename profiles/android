@@ -1,0 +1,14 @@
+[build_requires]
+# android-toolchain/r16@dmerej/test
+# https://stackoverflow.com/questions/55151574/building-poco-c-libraries-with-conan-profiles-for-android
+# https://github.com/conan-community/community/issues/145
+
+[settings]
+os=Android
+os_build=Linux
+os.api_level=21
+compiler=clang
+compiler.version=5.0
+
+[options]
+*:pic = True
