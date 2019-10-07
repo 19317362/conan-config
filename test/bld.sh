@@ -2,6 +2,7 @@
 #usage:
 function usage()
 {
+    echo "Usage:"
     echo "bld.sh <docker image> <profile>"
 }
 # if [ $# -eq 0 ]
