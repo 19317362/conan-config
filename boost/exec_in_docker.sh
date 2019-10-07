@@ -30,4 +30,4 @@ time cmake ../.. -DCMAKE_BUILD_TYPE=Release
 time cmake --build .
 
 # file info
-file bin/md5
+file bin/*

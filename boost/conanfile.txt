@@ -1,6 +1,5 @@
 [requires]
-Boost.Asio/1.65.1@bincrafters/stable
-Boost.Bind/1.65.1@bincrafters/stable
+boost/1.71.0@conan/stable
 
 [generators]
 cmake

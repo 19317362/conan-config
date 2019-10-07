@@ -5,8 +5,8 @@ function usage()
     echo "Usage:"
     echo "./bld.sh <docker image> <profile>"
     echo "eg."
-    echo "./bld.sh conanio/gcc9-armv7 linux_armv7"
-    echo "./bld.sh conanio/gcc9-armv8 linux_armv8"
+    echo "./bld.sh conanio/gcc9-armv7 gcc9-armv7"
+    echo "./bld.sh conanio/gcc9-armv8 gcc9-armv8"
     echo "./bld.sh conanio/android-clang8-armv7 android-clang8-armv7"
     echo "./bld.sh conanio/android-clang8-armv8 android-clang8-armv8"    
 }
