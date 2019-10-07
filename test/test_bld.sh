@@ -3,8 +3,11 @@
 # $ git clone https://github.com/conan-community/conan-openssl
 # $ cd conan-openssl
 # $ 
-# docker run -it --rm -v$(pwd):/home/conan/project -v ~/.conan:/home/conan/.conan -w /home/conan/project conanio/gcc9-armv8 /bin/bash
-# docker run -it --rm -v$(pwd):/home/conan/project -v ~/.conan:/home/conan/.conan -w /home/conan/project conanio/gcc9-armv7 /bin/bash
+# docker run -it --rm -v$(pwd):/home/conan/project -w /home/conan/project conanio/gcc9-armv8 /bin/bash
+# docker run -it --rm -v$(pwd):/home/conan/project -w /home/conan/project conanio/gcc9-armv7 /bin/bash
+# docker run -it --rm -v$(pwd):/home/conan/project -w /home/conan/project conanio/android-clang8-armv8 /bin/bash
+# docker run -it --rm -v$(pwd):/home/conan/project -w /home/conan/project conanio/android-clang8-armv7 /bin/bash
+
 # docker run -it --rm -v$(pwd):/home/conan/project -v ~/.conan/conan.conf:/home/conan/.conan/conan.conf -w /home/conan/project conanio/gcc9-armv8 /bin/bash
 
 # # Now we are running on the conangcc49-armv7hf container
